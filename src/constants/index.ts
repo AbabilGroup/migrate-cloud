@@ -4,8 +4,8 @@ export const navlinks = [
     href: "/",
   },
   {
-    label: "How to hire a foreigner?",
-    href: "/how-to-hire-a-foreigner",
+    label: "How to hire international talent?",
+    href: "/how-to-hire-international-talent",
   },
   {
     label: "Solutions",
