@@ -1,6 +1,6 @@
-import Header from "@/components/Header";
+import Header from "@/components/shared/Header";
 import "../globals.css";
-import Footer from "@/components/Footer";
+import Footer from "@/components/shared/Footer";
 
 export default function CommonLayout({
   children,
