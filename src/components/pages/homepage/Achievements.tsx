@@ -11,13 +11,13 @@ const Achievements = () => {
             <h2 className="text-center text-5xl font-bold text-primary">
               600+
             </h2>
-            <p className="text-center font-semibold">Employees</p>
+            <p className="text-center font-semibold">Employees placed</p>
           </div>
           <div className="space-y-5">
             <h2 className="text-center text-5xl font-bold text-primary">
               100%
             </h2>
-            <p className="text-center font-semibold">Trust</p>
+            <p className="text-center font-semibold">Client satisfaction</p>
           </div>
         </div>
       </div>

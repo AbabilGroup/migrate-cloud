@@ -47,8 +47,9 @@ const Header = () => {
             </li>
           ))}
         </ul>
-
-        <Button className="hidden lg:inline-block">Contact</Button>
+        <Link href="/contact">
+          <Button className="hidden lg:inline-block">Contact</Button>
+        </Link>
       </nav>
     </header>
   );

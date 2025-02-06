@@ -14,11 +14,12 @@ const Hero = () => {
     <section className="flex min-h-[80vh] flex-col gap-10 py-20 xl:flex-row xl:items-center">
       <div className="flex basis-full flex-col items-center space-y-5 xl:basis-1/2 xl:items-start xl:pl-40 xl:pr-20">
         <h1 className="text-center text-5xl font-bold leading-[60px] xl:text-left">
-          Simplify the process of hiring foreign workforce.
+          Simplify the process of hiring a global workforce.
         </h1>
         <p className="text-center xl:text-left">
-          From small family businesses to global corporations, we’ll help you
-          find the foreign workforce you need to progress!
+          Whether you’re a small business or a multinational corporation,
+          MigrateCloud is here to help you find the skilled workforce you need
+          to grow. From recruitment to onboarding, we handle it all.
         </p>
         <div className="space-x-2">
           <Button>Contact us</Button>
