@@ -7,7 +7,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Header = () => {
   return (
-    <header className="bg-white py-2 shadow">
+    <header className="sticky top-0 z-50 bg-white py-2 shadow">
       <nav className="container flex items-center justify-between">
         <Link href="/">
           <Image
@@ -19,7 +19,7 @@ const Header = () => {
           />
         </Link>
 
-        <ul className="flex items-center justify-center gap-7 font-semibold">
+        <ul className="hidden items-center justify-center gap-7 font-semibold lg:flex">
           {navlinks.map((navlink, i) => (
             <li key={i} className="group relative">
               <Link
@@ -31,7 +31,7 @@ const Header = () => {
 
               {/* Dropdown for sublinks */}
               {navlink.sublinks && (
-                <ul className="invisible absolute left-0 top-full mt-2 w-52 rounded-lg bg-white py-2 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                <ul className="invisible absolute left-0 top-full z-50 mt-2 w-52 rounded-lg bg-white py-2 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   {navlink.sublinks.map((sublink, j) => (
                     <li key={j}>
                       <Link
@@ -48,7 +48,7 @@ const Header = () => {
           ))}
         </ul>
 
-        <Button>Contact</Button>
+        <Button className="hidden lg:inline-block">Contact</Button>
       </nav>
     </header>
   );

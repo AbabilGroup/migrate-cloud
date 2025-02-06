@@ -1,10 +1,14 @@
-import { Button } from "@/components/ui/button";
+import Achievements from "@/components/pages/homepage/Achievements";
+import Hero from "@/components/pages/homepage/Hero";
+import WhyChoose from "@/components/pages/homepage/WhyChoose";
 
 const HomePage = () => {
   return (
-    <div>
-      <Button>Button</Button>
-    </div>
+    <main>
+      <Hero />
+      <Achievements />
+      <WhyChoose />
+    </main>
   );
 };
 
