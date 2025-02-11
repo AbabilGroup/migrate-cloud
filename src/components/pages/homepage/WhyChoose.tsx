@@ -7,7 +7,7 @@ import {
 
 const WhyChoose = () => {
   return (
-    <section className="py-10">
+    <section className="py-20">
       <div className="container grid grid-cols-1 gap-10 lg:grid-cols-2">
         <div className="space-y-5">
           <h2 className="text-center text-4xl font-bold leading-[60px] xl:text-left">

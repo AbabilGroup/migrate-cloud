@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const BrandLogos = () => {
   return (
-    <section className="py-10">
+    <section className="py-10 pb-20">
       <div className="container">
         <div className="mx-auto grid max-w-[800px] grid-cols-1 gap-40 lg:grid-cols-3">
           <div>

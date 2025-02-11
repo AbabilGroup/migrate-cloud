@@ -67,7 +67,7 @@ const WhyChooseUs = () => {
           </div>
           <div>
             <Image
-              className="h-auto w-full"
+              className="h-auto w-full rounded-2xl"
               width={450}
               height={700}
               src="/images/why.jpg"

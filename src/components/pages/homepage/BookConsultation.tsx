@@ -26,7 +26,7 @@ const BookConsultation = () => {
         </div>
         <div>
           <Image
-            className="h-auto w-full"
+            className="h-auto w-full rounded-2xl"
             src="/images/consultant.jpg"
             alt="Consultation"
             height={380}
