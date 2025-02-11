@@ -17,7 +17,10 @@ const HomePage = () => {
       <TypeOfEmployees />
       <HowToHire />
       <BookConsultation />
+<<<<<<< HEAD
       <WhyChooseUs />
+=======
+>>>>>>> f0d185e0983d31298c10433d244060b69ce3f74b
     </main>
   );
 };
