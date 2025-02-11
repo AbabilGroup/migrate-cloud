@@ -5,11 +5,7 @@ import Link from "next/link";
 const BookConsultation = () => {
   return (
     <section className="py-10">
-<<<<<<< HEAD
       <div className="container grid grid-cols-1 items-center gap-20 lg:grid-cols-2">
-=======
-      <div className="container grid grid-cols-1 gap-20 lg:grid-cols-2 items-center">
->>>>>>> f0d185e0983d31298c10433d244060b69ce3f74b
         <div className="space-y-4">
           <h2 className="text-4xl font-bold">Book your Free Consultation.</h2>
           <p className=" ">
