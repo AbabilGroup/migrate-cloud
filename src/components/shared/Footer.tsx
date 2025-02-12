@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="mt-auto bg-primary pt-20">
+    <footer className="mt-auto bg-secondary pt-20">
       <div className="container grid grid-cols-1 items-center justify-center gap-28 lg:grid-cols-3">
         <div className="flex items-start justify-center lg:justify-start">
           <Link className="" href="/">
