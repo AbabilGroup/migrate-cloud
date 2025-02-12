@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const TopBar = () => {
   return (
-    <header className="hidden bg-primary py-2 text-sm text-white lg:block">
+    <header className="hidden bg-secondary py-2 text-sm text-white lg:block">
       <div className="container flex items-center justify-start gap-5">
         <div className="flex items-center gap-1">
           <div>
