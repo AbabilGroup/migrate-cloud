@@ -6,9 +6,11 @@ import {
 } from "@/components/ui/accordion";
 import Image from "next/image";
 
+
+
 const FAQ = () => {
   return (
-    <section className="py-10">
+    <section className="py-20">
       <div className="container grid max-w-[1100px] grid-cols-1 items-center gap-20 lg:grid-cols-2">
         <div>
           <Image

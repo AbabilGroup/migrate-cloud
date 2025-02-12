@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const HireAForeigner = () => {
   return (
@@ -11,7 +12,9 @@ const HireAForeigner = () => {
           immigration process, ensuring a smooth and successful outcome.
         </p>
         <div className="flex items-center justify-center">
-          <Button>Contact us</Button>
+          <Link href="/contact">
+            <Button>Contact us</Button>
+          </Link>
         </div>
       </div>
     </section>

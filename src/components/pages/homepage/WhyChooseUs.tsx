@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 
 const WhyChooseUs = () => {
@@ -62,7 +63,9 @@ const WhyChooseUs = () => {
             </div>
 
             <div>
-              <Button className="bg-secondary">Contact us</Button>
+              <Link href="/contact">
+                <Button className="bg-secondary">Contact us</Button>
+              </Link>
             </div>
           </div>
           <div>

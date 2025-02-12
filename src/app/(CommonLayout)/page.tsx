@@ -8,6 +8,11 @@ import HowToHire from "@/components/pages/homepage/HowToHire";
 import TypeOfEmployees from "@/components/pages/homepage/TypeOfEmployees";
 import WhyChoose from "@/components/pages/homepage/WhyChoose";
 import WhyChooseUs from "@/components/pages/homepage/WhyChooseUs";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "MigrateCloud | Simplify the process of hiring a global workforce.",
+};
 
 const HomePage = () => {
   return (

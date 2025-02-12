@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 import Autoplay from "embla-carousel-autoplay";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -22,10 +23,14 @@ const Hero = () => {
           to grow. From recruitment to onboarding, we handle it all.
         </p>
         <div className="space-x-2">
-          <Button>Contact us</Button>
-          <Button variant="outline" className="border-primary text-primary">
-            Explore Services
-          </Button>
+          <Link href="/contact">
+            <Button>Contact us</Button>
+          </Link>
+          <Link href="/services">
+            <Button variant="outline" className="border-primary text-primary">
+              Explore Services
+            </Button>
+          </Link>
         </div>
       </div>
       <div className="basis-full xl:basis-1/2">
