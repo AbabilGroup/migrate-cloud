@@ -18,3 +18,12 @@
     visibility 0.3s ease,
     transform 0.3s ease;
 }
+
+.bg-gradient-310deg {
+  background: rgb(245, 245, 245);
+  background: linear-gradient(
+    310deg,
+    rgba(245, 245, 245, 1) 50%,
+    rgba(29, 174, 154, 1) 50%
+  );
+}
