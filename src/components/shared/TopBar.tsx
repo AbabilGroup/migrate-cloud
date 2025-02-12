@@ -23,8 +23,6 @@ const TopBar = () => {
             info@migratecloud.world
           </Link>
         </div>
-        <Link href="tel:+385 95 364 3161">+385 95 364 3161</Link>
-        <Link href="tel:+385 1 6701 577">+385 1 6701 577</Link>
 
         <div className="ml-auto flex items-center gap-2 text-lg">
           <FaFacebookSquare />

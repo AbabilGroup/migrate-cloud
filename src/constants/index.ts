@@ -25,11 +25,14 @@ export const navlinks = [
     sublinks: [
       {
         label: "Employment administration",
-        href: "/employment-administration",
+        href: "/services/employment-administration",
       },
-      { label: "Full service HR", href: "/full-service-hr" },
-      { label: "Employment mediation", href: "/employment-mediation" },
-      { label: "Assignment of Workers", href: "/assignment-of-workers" },
+      { label: "Full-Service HR", href: "/services/full-service-hr" },
+      { label: "Employment Mediation", href: "/services/employment-mediation" },
+      {
+        label: "Assignment of Workers",
+        href: "/services/assignment-of-workers",
+      },
     ],
   },
   {

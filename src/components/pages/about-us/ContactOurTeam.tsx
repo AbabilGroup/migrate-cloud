@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 const ContactOurTeam = () => {
   return (
@@ -14,7 +15,9 @@ const ContactOurTeam = () => {
             we can help you.
           </p>
           <div>
-            <Button>Contact us</Button>
+            <Link href="/contact">
+              <Button className="border">Contact us</Button>
+            </Link>
           </div>
         </div>
         <div>
