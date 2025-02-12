@@ -10,15 +10,17 @@ const WhyChoose = () => {
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-3">
           <div className="space-y-5">
             <h2 className="text-center text-5xl font-bold">7+</h2>
-            <p className="text-center font-semibold">Years of experience</p>
+            <p className="text-center font-semibold">Years of Expertise</p>
           </div>
           <div className="space-y-5">
             <h2 className="text-center text-5xl font-bold">600+</h2>
-            <p className="text-center font-semibold">Employees placed</p>
+            <p className="text-center font-semibold">
+              Foreign Workers Successfully Placed
+            </p>
           </div>
           <div className="space-y-5">
             <h2 className="text-center text-5xl font-bold">100%</h2>
-            <p className="text-center font-semibold">Client satisfaction</p>
+            <p className="text-center font-semibold">Client Satisfaction</p>
           </div>
         </div>
       </div>
