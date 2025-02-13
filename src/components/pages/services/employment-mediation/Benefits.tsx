@@ -3,13 +3,13 @@ import { FaRegListAlt } from "react-icons/fa";
 import { FaRegNewspaper } from "react-icons/fa";
 import { FaRegObjectUngroup } from "react-icons/fa";
 
-const Process = () => {
+const Benefits = () => {
   return (
     <section className="bg-[#F5F5F5] py-20">
       <div className="container grid grid-cols-1 items-center gap-20 lg:grid-cols-2">
         <div className="space-y-5">
           <h2 className="text-4xl font-bold">
-            What are the advantages of hiring an agency?
+            What Are the Benefits of Hiring Through an Agency?
           </h2>
           <p>
             We handle the preparation and submission of all required legal
@@ -69,4 +69,4 @@ const Process = () => {
   );
 };
 
-export default Process;
+export default Benefits;

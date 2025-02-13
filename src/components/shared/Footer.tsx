@@ -4,9 +4,10 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
+
 const Footer = () => {
   return (
-    <footer className="mt-auto bg-secondary pt-20 border-t">
+    <footer className="mt-auto border-t bg-secondary pt-20">
       <div className="container grid grid-cols-1 items-center justify-center gap-28 lg:grid-cols-3">
         <div className="flex items-start justify-center lg:justify-start">
           <Link className="" href="/">
@@ -21,11 +22,11 @@ const Footer = () => {
         </div>
         <div className="space-y-3">
           <h4 className="text-center text-xl font-bold text-white">
-            Stojimo vam na raspolaganju
+            We are at your disposal.
           </h4>
           <p className="text-center text-white">
-            Kontaktirajte nas za bilo koja pitanja vezana za zapošljavanje
-            radnika iz inozemstva. Pomoći ćemo vam u svakom trenutku.
+            Contact us for any questions related to hiring workers from abroad.
+            We will help you at any time.
           </p>
         </div>
         <div className="flex justify-center space-x-4 text-white lg:justify-end">
