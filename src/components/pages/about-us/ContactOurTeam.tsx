@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
+import { FaHandshakeSimple } from "react-icons/fa6";
 
 const ContactOurTeam = () => {
   return (
@@ -21,13 +21,9 @@ const ContactOurTeam = () => {
           </div>
         </div>
         <div>
-          <Image
-            className="size-[260px]"
-            src="/images/handshake.png"
-            height={260}
-            width={260}
-            alt="Handshake"
-          />
+          <div className="inline-flex size-[200px] items-center justify-center rounded-full border bg-secondary">
+            <FaHandshakeSimple className="text-8xl text-white" />
+          </div>
         </div>
       </div>
     </section>
