@@ -25,9 +25,15 @@ const TopBar = () => {
         </div>
 
         <div className="ml-auto flex items-center gap-2 text-lg">
-          <FaFacebookSquare />
-          <FaInstagram />
-          <FaLinkedin />
+          <Link href="#">
+            <FaFacebookSquare />
+          </Link>
+          <Link href="#">
+            <FaInstagram />
+          </Link>
+          <Link href="#">
+            <FaLinkedin />
+          </Link>
         </div>
       </div>
     </header>
