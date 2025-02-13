@@ -1,7 +1,20 @@
+import Challenges from "@/components/pages/solutions/navigating-immigration-laws/Challenges";
+import EmploymentAdministration from "@/components/pages/solutions/navigating-immigration-laws/EmploymentAdministration";
+import Features from "@/components/pages/solutions/navigating-immigration-laws/Features";
+import Hero from "@/components/pages/solutions/navigating-immigration-laws/Hero";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "MigrateCloud | Navigating Immigration Laws",
+};
+
 const NavigatingImmigrationLawsPage = () => {
   return (
     <main>
-      <h1>This is NavigatingImmigrationLawsPage component</h1>
+      <Hero />
+      <Challenges />
+      <EmploymentAdministration />
+      <Features />
     </main>
   );
 };

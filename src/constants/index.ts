@@ -12,19 +12,19 @@ export const navlinks = [
     sublinks: [
       {
         label: "Navigating immigration laws",
-        href: "/navigating-immigration-laws",
+        href: "/solutions/navigating-immigration-laws",
       },
       {
         label: "Employment of seasonal workers",
-        href: "/employment-of-seasonal-workers",
+        href: "/solutions/employment-of-seasonal-workers",
       },
       {
         label: "Employment of construction workers",
-        href: "/employment-of-construction-workers",
+        href: "/solutions/employment-of-construction-workers",
       },
       {
         label: "Employment of Medical Workers",
-        href: "/employment-of-medical-workers",
+        href: "/solutions/employment-of-medical-workers",
       },
     ],
   },
