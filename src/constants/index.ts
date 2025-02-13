@@ -14,9 +14,18 @@ export const navlinks = [
         label: "Navigating immigration laws",
         href: "/navigating-immigration-laws",
       },
-      { label: "Seasonal workers", href: "/seasonal-workers" },
-      { label: "Construction workers", href: "/construction-workers" },
-      { label: "Medical workers", href: "/medical-workers" },
+      {
+        label: "Employment of seasonal workers",
+        href: "/employment-of-seasonal-workers",
+      },
+      {
+        label: "Employment of construction workers",
+        href: "/employment-of-construction-workers",
+      },
+      {
+        label: "Employment of Medical Workers",
+        href: "/employment-of-medical-workers",
+      },
     ],
   },
   {
