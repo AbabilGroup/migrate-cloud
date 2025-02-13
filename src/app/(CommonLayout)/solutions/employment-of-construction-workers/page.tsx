@@ -1,10 +1,22 @@
-const EmploymentOfConstructionWorkersPage = () => {
+import Challenges from "@/components/pages/solutions/employment-of-construction-workers/Challenges";
+import EmploymentMediation from "@/components/pages/solutions/employment-of-construction-workers/EmploymentMediation";
+import Features from "@/components/pages/solutions/employment-of-construction-workers/Features";
+import Hero from "@/components/pages/solutions/employment-of-construction-workers/Hero";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "MigrateCloud | Employment of construction workers",
+};
+
+const EmploymentOfConstructionWorkersPage = () => {
   return (
-    <div>
-      <h1>This is EmploymentOfConstructionWorkersPage component</h1>
-    </div>
-  )
-}
+    <main>
+      <Hero />
+      <Challenges />
+      <EmploymentMediation />
+      <Features />
+    </main>
+  );
+};
 
 export default EmploymentOfConstructionWorkersPage;

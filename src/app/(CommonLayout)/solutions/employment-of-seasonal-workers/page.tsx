@@ -2,6 +2,11 @@ import AssignmentOfWorkers from "@/components/pages/solutions/employment-of-seas
 import Challenges from "@/components/pages/solutions/employment-of-seasonal-workers/Challenges";
 import Features from "@/components/pages/solutions/employment-of-seasonal-workers/Features";
 import Hero from "@/components/pages/solutions/employment-of-seasonal-workers/Hero";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "MigrateCloud | Employment of seasonal workers",
+};
 
 const EmploymentOfSeasonalWorkersPage = () => {
   return (
