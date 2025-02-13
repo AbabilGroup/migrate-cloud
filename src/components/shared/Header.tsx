@@ -4,6 +4,9 @@ import { Button } from "../ui/button";
 import { navlinks } from "@/constants";
 import { Url } from "next/dist/shared/lib/router/router";
 import { MdKeyboardArrowDown } from "react-icons/md";
+import { FaBars } from "react-icons/fa6";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import MobileNav from "./MobileNav";
 
 const Header = () => {
   return (
@@ -47,9 +50,19 @@ const Header = () => {
             </li>
           ))}
         </ul>
+
         <Link href="/contact">
           <Button className="hidden lg:inline-block">Contact</Button>
         </Link>
+
+        <Sheet>
+          <SheetTrigger className="lg:hidden">
+            <FaBars className="cursor-pointer text-3xl text-secondary lg:hidden" />
+          </SheetTrigger>
+          <SheetContent className="bg-white">
+            <MobileNav />
+          </SheetContent>
+        </Sheet>
       </nav>
     </header>
   );
