@@ -6,6 +6,10 @@ import { FaChessBoard } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import FadeInLeftWithSlowBounce from "@/animation_wrappers/FadeInLeftWithSlowBounce";
+import FadeInUpWithSlowBounce from "@/animation_wrappers/FadeInUpWithSlowBounce";
+import FadeInRightWithSlowBounce from "@/animation_wrappers/FadeInRightWithSlowBounce ";
+import FadeInDownWithSlowBounce from "@/animation_wrappers/FadeInDownWithSlowBounce";
 
 const TypeOfEmployees = () => {
   return (
@@ -17,53 +21,53 @@ const TypeOfEmployees = () => {
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
           {/* card  */}
-          <div className="space-y-3 rounded-3xl bg-white p-10">
+          <FadeInLeftWithSlowBounce className="space-y-3 rounded-3xl bg-white p-10">
             <FaBox className="text-5xl text-primary" />
             <h3 className="text-3xl font-semibold">Warehouse Workers</h3>
             <p>
               Proactive and eager to learn, our candidates are ready to take on
               leadership roles.
             </p>
-          </div>
+          </FadeInLeftWithSlowBounce>
           {/* card  */}
-          <div className="space-y-3 rounded-3xl bg-white p-10">
+          <FadeInDownWithSlowBounce className="space-y-3 rounded-3xl bg-white p-10">
             <TiFlowMerge className="text-5xl text-secondary" />
             <h3 className="text-3xl font-semibold">Electricians</h3>
             <p>
               Skilled professionals are available at various expertise levels.
               We can arrange video interviews for assessment.
             </p>
-          </div>
+          </FadeInDownWithSlowBounce>
           {/* card  */}
-          <div className="space-y-3 rounded-3xl bg-white p-10">
+          <FadeInRightWithSlowBounce className="space-y-3 rounded-3xl bg-white p-10">
             <FaScrewdriver className="text-5xl text-primary" />
             <h3 className="text-3xl font-semibold">Mechanics</h3>
             <p>Young, capable, and ready for new challenges.</p>
-          </div>
+          </FadeInRightWithSlowBounce>
           {/* card  */}
-          <div className="space-y-3 rounded-3xl bg-white p-10">
+          <FadeInLeftWithSlowBounce className="space-y-3 rounded-3xl bg-white p-10">
             <FaHammer className="text-5xl text-secondary" />
             <h3 className="text-3xl font-semibold">Construction Workers</h3>
             <p>
               From basic skills to specialized trades, we find the right fit for
               your projects.
             </p>
-          </div>
+          </FadeInLeftWithSlowBounce>
           {/* card  */}
-          <div className="space-y-3 rounded-3xl bg-white p-10">
+          <FadeInUpWithSlowBounce className="space-y-3 rounded-3xl bg-white p-10">
             <FaChessBoard className="text-5xl text-primary" />
             <h3 className="text-3xl font-semibold">Tilers</h3>
             <p>
               igh-demand professionals are available through our streamlined
               hiring process.
             </p>
-          </div>
+          </FadeInUpWithSlowBounce>
           {/* card  */}
-          <div className="space-y-3 rounded-3xl bg-white p-10">
+          <FadeInRightWithSlowBounce className="space-y-3 rounded-3xl bg-white p-10">
             <FaMailBulk className="text-5xl text-secondary" />
             <h3 className="text-3xl font-semibold">Customized Positions</h3>
             <p>Need a specific role? We can help. Contact us for inquiries.</p>
-          </div>
+          </FadeInRightWithSlowBounce>
         </div>
 
         <div className="flex items-center justify-center">

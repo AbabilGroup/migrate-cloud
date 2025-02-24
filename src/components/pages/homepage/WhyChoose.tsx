@@ -1,3 +1,5 @@
+import FadeInLeftWithSlowBounce from "@/animation_wrappers/FadeInLeftWithSlowBounce";
+import FadeInRightWithSlowBounce from "@/animation_wrappers/FadeInRightWithSlowBounce ";
 import {
   Accordion,
   AccordionContent,
@@ -9,7 +11,7 @@ const WhyChoose = () => {
   return (
     <section className="py-20">
       <div className="container grid grid-cols-1 gap-10 lg:grid-cols-2">
-        <div className="space-y-5">
+        <FadeInLeftWithSlowBounce className="space-y-5">
           <h2 className="text-center text-4xl font-bold leading-[60px] xl:text-left">
             Why Choose a Recruitment Agency?
           </h2>
@@ -19,8 +21,8 @@ const WhyChoose = () => {
             Our expertise ensures a seamless hiring process tailored to your
             business needs.
           </p>
-        </div>
-        <div>
+        </FadeInLeftWithSlowBounce>
+        <FadeInRightWithSlowBounce>
           <Accordion className="border" type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger className="px-5">
@@ -64,7 +66,7 @@ const WhyChoose = () => {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-        </div>
+        </FadeInRightWithSlowBounce>
       </div>
     </section>
   );

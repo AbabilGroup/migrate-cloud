@@ -1,10 +1,11 @@
+import FadeInUpWithSlowBounce from "@/animation_wrappers/FadeInUpWithSlowBounce";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const HireAForeigner = () => {
   return (
     <section className="py-20">
-      <div className="container max-w-[620px] space-y-5">
+      <FadeInUpWithSlowBounce className="container max-w-[620px] space-y-5">
         <h1 className="text-center text-5xl font-bold">Hire a foreigner</h1>
         <p className="text-center">
           A reliable and experienced partner in the recruitment of foreign
@@ -16,7 +17,7 @@ const HireAForeigner = () => {
             <Button>Contact us</Button>
           </Link>
         </div>
-      </div>
+      </FadeInUpWithSlowBounce>
     </section>
   );
 };

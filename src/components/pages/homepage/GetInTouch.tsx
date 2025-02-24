@@ -1,3 +1,5 @@
+import FadeInLeftWithSlowBounce from "@/animation_wrappers/FadeInLeftWithSlowBounce";
+import FadeInRightWithSlowBounce from "@/animation_wrappers/FadeInRightWithSlowBounce ";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -8,7 +10,7 @@ const GetInTouch = () => {
   return (
     <section className="py-20">
       <div className="container grid max-w-[1100px] grid-cols-1 gap-20 lg:grid-cols-2">
-        <div className="rounded-3xl bg-[#F3F6F3] p-10">
+        <FadeInLeftWithSlowBounce className="rounded-3xl bg-[#F3F6F3] p-10">
           <div className="flex h-full flex-col items-start justify-center gap-5">
             <h2 className="text-4xl font-bold">Contact</h2>
             <p className="font-semibold">
@@ -35,9 +37,9 @@ const GetInTouch = () => {
               Opening hours: <br /> Mon - Fri <br /> 8:00 AM - 4:00 PM
             </p>
           </div>
-        </div>
+        </FadeInLeftWithSlowBounce>
 
-        <div className="space-y-5">
+        <FadeInRightWithSlowBounce className="space-y-5">
           <h2 className="text-2xl font-bold">
             Contact Us for Expert Assistance Have Questions? We’re Here to Help!
           </h2>
@@ -59,7 +61,7 @@ const GetInTouch = () => {
               <Button className="bg-secondary">Send inquiry</Button>
             </div>
           </form>
-        </div>
+        </FadeInRightWithSlowBounce>
       </div>
     </section>
   );

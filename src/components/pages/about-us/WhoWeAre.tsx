@@ -1,7 +1,9 @@
+import FadeInUpWithSlowBounce from "@/animation_wrappers/FadeInUpWithSlowBounce";
+
 const WhoWeAre = () => {
   return (
     <section className="py-20">
-      <div className="container max-w-[1100px] space-y-6">
+      <FadeInUpWithSlowBounce className="container max-w-[1100px] space-y-6">
         <h6 className="font-bold">WHO ARE WE?</h6>
         <h2 className="text-4xl font-bold">International Employment Agency</h2>
         <p>
@@ -24,7 +26,7 @@ const WhoWeAre = () => {
           high-quality talent, aiming to foster a productive and harmonious work
           environment for both employers and employees across the globe.
         </p>
-      </div>
+      </FadeInUpWithSlowBounce>
     </section>
   );
 };

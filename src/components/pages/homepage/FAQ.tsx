@@ -1,3 +1,5 @@
+import FadeInLeftWithSlowBounce from "@/animation_wrappers/FadeInLeftWithSlowBounce";
+import FadeInRightWithSlowBounce from "@/animation_wrappers/FadeInRightWithSlowBounce ";
 import {
   Accordion,
   AccordionContent,
@@ -10,7 +12,7 @@ const FAQ = () => {
   return (
     <section className="py-20">
       <div className="container grid max-w-[1100px] grid-cols-1 items-center gap-20 lg:grid-cols-2">
-        <div>
+        <FadeInLeftWithSlowBounce>
           <Image
             className="h-auto w-full rounded-2xl"
             src="/images/faq.jpg"
@@ -18,8 +20,8 @@ const FAQ = () => {
             height={600}
             width={450}
           />
-        </div>
-        <div className="space-y-7">
+        </FadeInLeftWithSlowBounce>
+        <FadeInRightWithSlowBounce className="space-y-7">
           <h2 className="text-4xl font-bold">Frequently Asked Questions</h2>
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
@@ -93,7 +95,7 @@ const FAQ = () => {
               </AccordionContent>
             </AccordionItem>
           </Accordion>
-        </div>
+        </FadeInRightWithSlowBounce>
       </div>
     </section>
   );

@@ -1,3 +1,5 @@
+import FadeInLeftWithSlowBounce from "@/animation_wrappers/FadeInLeftWithSlowBounce";
+import FadeInRightWithSlowBounce from "@/animation_wrappers/FadeInRightWithSlowBounce ";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,7 +10,7 @@ const WhyChooseUs = () => {
     <section className="py-10">
       <div className="container">
         <div className="mx-auto grid max-w-[1000px] grid-cols-1 items-center gap-20 lg:grid-cols-2">
-          <div className="space-y-5">
+          <FadeInLeftWithSlowBounce className="space-y-5">
             <h2 className="text-4xl font-bold">Why Choose Us?</h2>
             <p className="">
               MigrateCloud is your trusted partner for hiring international
@@ -67,8 +69,8 @@ const WhyChooseUs = () => {
                 <Button className="bg-secondary">Contact us</Button>
               </Link>
             </div>
-          </div>
-          <div>
+          </FadeInLeftWithSlowBounce>
+          <FadeInRightWithSlowBounce>
             <Image
               className="h-auto w-full rounded-2xl"
               width={450}
@@ -76,7 +78,7 @@ const WhyChooseUs = () => {
               src="/images/why.jpg"
               alt="Why Choose Us"
             />
-          </div>
+          </FadeInRightWithSlowBounce>
         </div>
       </div>
     </section>

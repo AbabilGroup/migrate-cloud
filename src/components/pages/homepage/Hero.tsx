@@ -9,11 +9,13 @@ import {
 import Image from "next/image";
 import Autoplay from "embla-carousel-autoplay";
 import Link from "next/link";
+import FadeInLeftWithSlowBounce from "@/animation_wrappers/FadeInLeftWithSlowBounce";
+import FadeInRightWithSlowBounce from "@/animation_wrappers/FadeInRightWithSlowBounce ";
 
 const Hero = () => {
   return (
     <section className="flex min-h-[80vh] flex-col gap-10 px-[20px] py-20 lg:px-0 xl:flex-row xl:items-center">
-      <div className="flex basis-full flex-col items-center space-y-5 xl:basis-1/2 xl:items-start xl:pl-40 xl:pr-20">
+      <FadeInLeftWithSlowBounce className="flex basis-full flex-col items-center space-y-5 xl:basis-1/2 xl:items-start xl:pl-40 xl:pr-20">
         <h1 className="text-center text-5xl font-bold leading-[60px] xl:text-left">
           Simplify the process of hiring a global workforce.
         </h1>
@@ -32,8 +34,8 @@ const Hero = () => {
             </Button>
           </Link>
         </div>
-      </div>
-      <div className="basis-full xl:basis-1/2">
+      </FadeInLeftWithSlowBounce>
+      <FadeInRightWithSlowBounce className="basis-full xl:basis-1/2">
         <Carousel
           plugins={[
             Autoplay({
@@ -114,7 +116,7 @@ const Hero = () => {
             </CarouselItem>
           </CarouselContent>
         </Carousel>
-      </div>
+      </FadeInRightWithSlowBounce>
     </section>
   );
 };
