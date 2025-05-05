@@ -1,9 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-
+import {
+  FaFacebookSquare,
+  FaLinkedin,
+  FaPinterest,
+  FaTiktok,
+  FaYoutube,
+} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -52,14 +56,23 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center justify-end gap-2 text-2xl text-white">
-          <Link href="#">
+          <Link href="https://www.facebook.com/MigrateCloudofficial/">
             <FaFacebookSquare />
           </Link>
-          <Link href="#">
-            <FaInstagram />
+          <Link href="https://x.com/MigrateCloud01">
+            <FaXTwitter />
           </Link>
-          <Link href="#">
+          <Link href="https://www.linkedin.com/company/migrate-cloud">
             <FaLinkedin />
+          </Link>
+          <Link href="https://ro.pinterest.com/migratecloud0/">
+            <FaPinterest />
+          </Link>
+          <Link href="https://www.tiktok.com/@migratecloud25">
+            <FaTiktok />
+          </Link>
+          <Link href="https://www.youtube.com/@MigrateCloud25">
+            <FaYoutube />
           </Link>
         </div>
       </div>
