@@ -7,7 +7,7 @@ import {
   FaTiktok,
   FaYoutube,
 } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -58,6 +58,9 @@ const Footer = () => {
         <div className="flex items-center justify-end gap-2 text-2xl text-white">
           <Link href="https://www.facebook.com/MigrateCloudofficial/">
             <FaFacebookSquare />
+          </Link>
+          <Link href="https://www.instagram.com/">
+            <FaInstagram />
           </Link>
           <Link href="https://x.com/MigrateCloud01">
             <FaXTwitter />

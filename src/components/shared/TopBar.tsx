@@ -7,6 +7,7 @@ import {
   FaPinterest,
   FaTiktok,
   FaYoutube,
+  FaInstagram,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -32,6 +33,9 @@ const TopBar = () => {
         <div className="ml-auto flex items-center gap-2 text-lg">
           <Link href="https://www.facebook.com/MigrateCloudofficial/">
             <FaFacebookSquare />
+          </Link>
+          <Link href="https://www.instagram.com/">
+            <FaInstagram />
           </Link>
           <Link href="https://x.com/MigrateCloud01">
             <FaXTwitter />
