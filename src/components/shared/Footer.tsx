@@ -56,7 +56,7 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center justify-end gap-2 text-2xl text-white">
-          <Link href="https://www.facebook.com/MigrateCloudofficial/">
+          <Link href="https://www.facebook.com/migratecloud6061/">
             <FaFacebookSquare />
           </Link>
           <Link href="https://www.instagram.com/">

@@ -31,7 +31,7 @@ const TopBar = () => {
         </div>
 
         <div className="ml-auto flex items-center gap-2 text-lg">
-          <Link href="https://www.facebook.com/MigrateCloudofficial/">
+          <Link href="https://www.facebook.com/migratecloud6061/">
             <FaFacebookSquare />
           </Link>
           <Link href="https://www.instagram.com/">
